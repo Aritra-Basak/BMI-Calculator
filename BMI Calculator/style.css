@@ -158,10 +158,22 @@ h3 b{
 {
     .form
     {
-        height: 240px;
-        width:412px;
+        height: 265px;
+        width:395px;
         border-radius: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
+    p .text
+    {
+        font-size: 10px;
+    }
+    .row-one
+{
+    padding: 30px 12px 50px 15px;
+}
+.row-two
+{
+    padding: 15px 10px 30px 15px;
+}
 }
