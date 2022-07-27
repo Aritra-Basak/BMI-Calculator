@@ -158,29 +158,29 @@ h3 b{
 {
     .form
     {
-        height: 265px;
-        width:392px;
+        height: 275px;
+        width:398px;
         border-radius: 20px;
         margin-left: 10px;
         margin-right: 10px;
     }
     .text
     {
-        font-size: 12px;
+        font-size: 10px;
         margin: 5px 16px 5px 8px;
     }
     .row-one
-{
+    {
     padding: 30px 12px 50px 15px;
-}
-.row-two
-{
-    padding: 15px 10px 30px 15px;
-}
-h3 b{
+    }
+   .row-two
+    {
+    padding: 15px 10px 28px 15px;
+    }
+    h3 b{
     font-size: 32px;
     font-weight: 300;
-    color: #289df6;
+    color: #32e299;
 }
 }
 @media only screen and (max-width:400px)
