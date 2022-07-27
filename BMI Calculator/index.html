@@ -1,0 +1,45 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Finder</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Fav Icon-->
+    <link rel="icon" href="icon.png">
+  </head>
+  <body>
+    <h3><b>B</b>ody <b>M</b>ass <b>I</b>ndex Calculator</h3>
+    <form action="" class="form" id="form" onsubmit="return validateForm()">
+    <div class="row-one">
+        <input type="text" class ="text-input" id="age" autocomplete="on" required/>
+        <!--Autocomplete attribute lets web developers specify what if any permission the user agent has to provide automated assistance in filling out form field values, as well as guidance to the browser as to the type of information expected in the field -->
+        <!--The required attribute is a boolean attribute. When present, it specifies that an input field must be filled out before submitting the form.-->
+        <p class="text">Age</p>
+        <label class="container">
+            <input type="radio" name ="radio" id ="m">
+            <p class="text">Female</p>
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">
+            <input type="radio" name ="radio" id ="f">
+            <p class="text">Male</p>
+            <span class="checkmark"></span>
+        </label>
+    </div>
+    <div class="row-two">
+        <input type="text" class="text-input" id ="height" autocomplete="on" required>
+        <p class="text">Height(cm)</p>
+        <input type="text" class="text-input" id ="weight" autocomplete="on" required>
+        <p class="text">Weight(kg)</p>
+    </div>
+    <button type="button" id="submit">Submit</button>
+</form>
+<!--JavaScript-->
+<script src="script.js"></script>
+  </body>
+  
+  </html> 
+
