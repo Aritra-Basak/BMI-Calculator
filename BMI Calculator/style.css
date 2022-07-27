@@ -164,9 +164,10 @@ h3 b{
         margin-left: 10px;
         margin-right: 10px;
     }
-    p .text
+     .text
     {
         font-size: 10px;
+        margin: 5px 16px 5px 8px;
     }
     .row-one
 {
